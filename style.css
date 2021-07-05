@@ -3,6 +3,16 @@ body {
     margin: 0;
 }
 
+.inner-width {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -17,15 +27,14 @@ h2 {
     color: #707070;
 }
 
+h3 {
+    font-size: 22px;
+}
+
 .display-flex {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.half-div {
-    width: 50%;
-    margin-left: 5%;
+    justify-content: space-between;
 }
 
 .link-button {
@@ -37,13 +46,18 @@ h2 {
     font-size: 14px;
 }
 
-section {
-    margin-top: 10px;
-    margin-bottom: 100px;
+.half-div {
+    width: 50%;
 }
 
-.header-section .half-div img {
+.header-section-img {
+    text-align: right;
+}
+
+.header-section-img img {
     width: 80%;
+    margin-top: 20px;
+    text-align: right;
 }
 
 .header-section h1 {
@@ -62,15 +76,35 @@ section {
     padding-top: 40px;
 }
 
-.about-me-div-one {
+.about-me-img {
     text-align: center;
 }
 
-.about-me .half-div img {
+.about-me-img img {
     width: 50%;
 }
 
 .about-me p {
     color: #18191F;
     margin-bottom: 70px;
+}
+
+.recipie-section {
+    text-align: center;
+}
+
+.recipie-inner {
+    margin-top: 80px;
+}
+
+.card {
+    width: 28%;
+    text-align: left;
+    box-shadow: 2px 2px 50px rgb(172, 171, 171);
+    padding: 14px 16px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
 }
