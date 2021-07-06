@@ -17,6 +17,10 @@ section {
     color: orange;
 }
 
+.gray-color {
+    color: #5B5B5B;
+}
+
 h1 {
     font-size: 55px;
     color: #575757;
@@ -44,6 +48,7 @@ h3 {
     padding: 12px 22px;
     border-radius: 25px;
     font-size: 14px;
+    box-shadow: 1px 1px 60px rgb(223, 221, 221);
 }
 
 .half-div {
@@ -73,6 +78,7 @@ h3 {
 .about-me {
     background-image: url(img/about-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 40px;
 }
 
@@ -100,11 +106,46 @@ h3 {
 .card {
     width: 28%;
     text-align: left;
-    box-shadow: 2px 2px 50px rgb(172, 171, 171);
-    padding: 14px 16px;
+    box-shadow: 2px 2px 40px #d8d7d7;
+    padding: 16px;
     border-radius: 20px;
 }
 
 .card img {
     width: 100%;
+}
+
+.counter-section {
+    box-shadow: 2px 2px 50px #E5E5E5;
+    padding: 60px 0;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+.counter-box {
+    width: 28%;
+    text-align: center;
+}
+
+.counter-box p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 28px;
+}
+
+footer p {
+    color: #ffffff;
 }
